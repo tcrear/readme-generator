@@ -57,6 +57,17 @@ inquirer
             name:'github',
             message:'What is your GitHub URL?'
         },
-
     ])
+
+    .then((response) => {
+        const generateReadME = generateMarkdown(response);    
+
+        fs.writeFile("generateReadME.md", "generageReadME"), (err) => 
+          err ? console.log(err) : console.log('Success!')
+        });
+    };
+
+   
+
+    init();
 
