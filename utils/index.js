@@ -3,43 +3,60 @@ const inquirer = require('inquirer');
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown');
 
+// questions to generate readme
 inquirer
     .prompt([
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'title',
+            message:'Title of project.'
         },
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'description',
+            message:'Description of project.'
         },
         {
-            type:
-            message:
-            name:
+            type:'list',
+            name:'license',
+            message:'Choose a license.',
+            choices: ['None', 'MIT License', 'Appache License 2.0', 'Eclipse Public License 2.0', 'Mozilla Public License 2.0'],
         },
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'usage',
+            message:'Instructions on how to use your project.'
         },
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'install',
+            message:'Instructions on how to install your project.'
         },
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'test',
+            message:'Instructions on how to test your project.'
         },
         {
-            type:
-            message:
-            name:
+            type:'input',
+            name:'contribute',
+            message:'Instructions on how to contribute to your project.'
         },
+        {
+            type:'input',
+            name:'contributors',
+            message:'Provide the GitHub links to those who you collaborated with to create your project.'
+        },
+        {
+            type:'input',
+            name:'email',
+            message:'What is your email?'
+        },
+        {
+            type:'input',
+            name:'github',
+            message:'What is your GitHub URL?'
+        },
+
     ])
 
-// questions for readme
