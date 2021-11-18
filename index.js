@@ -12,6 +12,12 @@ inquirer
             message:'Title of project.'
         },
         {
+            type: 'checkbox',
+            name: 'contents',
+            message: 'Table of Contents',
+            choices: ['License', 'Installation', 'Usage', 'Test', 'Contribute', 'Contributors'],
+          },
+        {
             type:'input',
             name:'description',
             message:'Description of project.'
@@ -20,7 +26,7 @@ inquirer
             type:'list',
             name:'license',
             message:'Choose a license.',
-            choices: ['None', 'MIT License', 'Appache License 2.0', 'Eclipse Public License 2.0', 'Mozilla Public License 2.0'],
+            choices: ['MIT License', 'Appache License 2.0', 'Eclipse Public License 2.0', 'Mozilla Public License 2.0', 'None'],
         },
         {
             type:'input',
@@ -57,17 +63,21 @@ inquirer
             name:'github',
             message:'What is your GitHub URL?'
         },
+        {
+            type:'input',
+            name:'links',
+            message:'Useful links for your project?'
+        },
     ])
 
-    .then((response) => {
-        const generateReadME = generateMarkdown(response);    
+    .then(async (response) => {
+       
+        const generateReadME = await generateMarkdown(response);    
 
-        fs.writeFile("generateReadME.md", "generageReadME"), (err) => 
+        fs.writeFile("generateReadME.md", generateReadME, (err) => 
           err ? console.log(err) : console.log('Success!')
-        });
-    };
+         ) 
+    });
 
-   
-
-    init();
+    //init();
 
