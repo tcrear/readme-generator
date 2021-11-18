@@ -37,4 +37,5 @@ University of MN Bootcamp Homework #9
   # Links to Video 
     https://watch.screencastify.com/v/9g147pUTErVqaVcexF69
 
-  # Screenshot of "generatedReadME.md" from Video
+  # Screenshot of generatedReadME markdown file from Video
+  ![image](https://github.com/tcrear/readme-generator/blob/main/utils/assets/screenshot-9.JPG)
