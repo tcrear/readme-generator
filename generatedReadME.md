@@ -1,5 +1,4 @@
-# readme-generator
-University of MN Bootcamp Homework #9
+# ReadME Project Generator
 
   # Table of Contents
   License,Installation,Usage,Test,Contribute,Contributors,Questions,Links
@@ -22,16 +21,19 @@ University of MN Bootcamp Homework #9
   MIT License
 
   # Contribution
-  If you would like to contribute to this project, please reach out via Github or email  https://github.com/tcrear -or- tammie.crear@gmail.com.
+  Send a request on Github or email.
+  No additional collaboraters other than myself.
 
   # Tests
-  Test the project by creating a readme from your command line using node index.js.
+  Test the project by creating a readme from your command line using node index.js
 
   # License
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Questions
-   If you have questions for this project, please reach out via Github or email  https://github.com/tcrear -or- tammie.crear@gmail.com.
+  self.github.com
+  self@self.com
 
-  # Links to Video 
-    https://watch.screencastify.com/v/9g147pUTErVqaVcexF69
+  # Links to Deployed Site
+  google.com
+
