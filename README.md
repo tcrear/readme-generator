@@ -16,6 +16,7 @@ University of MN Bootcamp Homework #9
   Set up a generator that reduces the time it takes to create readmes for quality projects.
 
   # Installation
+  npm init
   npm install inquirer
 
   # Usage
@@ -35,3 +36,5 @@ University of MN Bootcamp Homework #9
 
   # Links to Video 
     https://watch.screencastify.com/v/9g147pUTErVqaVcexF69
+
+  # Screenshot of "generatedReadME.md" from Video
