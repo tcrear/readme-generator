@@ -15,7 +15,7 @@ inquirer
             type: 'checkbox',
             name: 'contents',
             message: 'Table of Contents',
-            choices: ['License', 'Installation', 'Usage', 'Test', 'Contribute', 'Contributors'],
+            choices: ['License', 'Installation', 'Usage', 'Test', 'Contribute', 'Contributors', 'Questions'],
           },
         {
             type:'input',

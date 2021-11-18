@@ -65,6 +65,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   ${ renderLicenseBadge(license)}(#license)
   - [Questions](#questions)
+  - [Links](#links)
 
   # Description
   ${description}
@@ -72,7 +73,7 @@ function generateMarkdown(data) {
   # Installation
   ${install}
 
-  # Useage
+  # Usage
   ${usage}
 
   # Contribution
@@ -88,6 +89,9 @@ function generateMarkdown(data) {
   # Questions
   ${github}
   ${email}
+
+  # Links to Deployed Site
+  ${links}
 
 `
 }
