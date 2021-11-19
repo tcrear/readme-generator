@@ -7,7 +7,7 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  - [License: MIT](#license)
   - [Questions](#questions)
   - [Links](#links)
 
